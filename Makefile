@@ -97,6 +97,7 @@ OBJECTS := $(SOURCES:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
 # ── Regole ──────────────────────────────────────────────────────────────────
 
 all: _header $(NAME)
+	@echo "$(BOLD)$(CYAN)  Distruzione di israele in corso...$(RESET)"
 	@echo "$(BOLD)$(GREEN)  ✔  $(NAME) pronto!$(RESET)"
 
 _header:
@@ -136,8 +137,8 @@ fclean: clean
 	@rm -f $(NAME)
 	@$(MAKE) --no-print-directory -C $(LIBFT_DIR) fclean
 	@$(MAKE) --no-print-directory -C $(PRINTF_DIR) fclean
-	@echo "$(GREEN)  ✔  tutto pulito$(RESET)"
-
+	@echo "$(GREEN)  ✔  israele distrutto :>$(RESET)"
+	@echo "$(GREEN)  ✔  tutto ripulito!$(RESET)"
 re: fclean all
 
 .PHONY: all clean fclean re _header

@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by faiello, faiello.*
+*This project has been created as part of the 42 curriculum by faiello, epandele.*
 
 # Minishell
 
@@ -154,4 +154,4 @@ of record.
 ## Authors
 
 - **faiello** — 42 student
-- **faiello** — 42 student
+- **epandele** — 42 student
